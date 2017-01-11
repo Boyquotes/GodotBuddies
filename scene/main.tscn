@@ -1,0 +1,46 @@
+[gd_scene load_steps=2 format=1]
+
+[ext_resource path="res://model/sprite/bg.png" type="Texture" id=1]
+
+[node name="root" type="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 1024.0
+margin/bottom = 600.0
+
+[node name="bg" type="TextureFrame" parent="."]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 1024.0
+margin/bottom = 600.0
+texture = ExtResource( 1 )
+modulate = Color( 0.246094, 0.274933, 0.984375, 1 )
+stretch_mode = 0
+
+[node name="Play" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 512.0
+margin/top = 500.0
+margin/right = 612.0
+margin/bottom = 530.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Play"
+flat = false
+
+
